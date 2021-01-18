@@ -93,7 +93,7 @@ function draw() {
        }
      }
    }
-   if(turn<=0){
+   if(turn<0){
     gameState = "end"
   }
    if(gameState === "end"){
